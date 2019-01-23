@@ -5,11 +5,11 @@
     "previous": "Previous",
     "tagline": "Build custom deep learning models in minutes",
     "docs": {
-      "doc1": {
+      "ic": {
         "title": "Image Classification",
         "sidebar_label": "Image Classification"
       },
-      "doc2": {
+      "od": {
         "title": "Object detection",
         "sidebar_label": "Object Detection"
       },

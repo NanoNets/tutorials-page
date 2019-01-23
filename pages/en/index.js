@@ -84,13 +84,14 @@ class TutorialBox extends React.Component {
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+    let imgUrl = `${baseUrl}${this.props.imgUrl}`
 
     return (
     <div style={{ textAlign:'center', width:400, display: 'inline-block' }}>
-    <img style={{width: 80}} src={this.props.imgUrl}/>
+    <img style={{width: 80}} src={imgUrl}/>
     <h2 style={{}}>{this.props.title}</h2>
     <p>Download our model as a docker binary and run it on your own infrastructure. Our docker models come in two flavors, GPU and CPU and can run on almost any platform including embedded devices. foobar</p>
-    <a href={docUrl("doc2.html")}><div style={{  display: 'inline-block', justifyContent:'center', alignItems: 'center' ,width: 150, border: '2px solid #546fff', color: '#ffffff',backgroundColor: '#546fff',padding: '8px 10px',borderRadius: 8,'fontSize': 12,fontWeight: 'bold',marginFeft:20,marginTop:20}} > Build  </div></a>
+    <a href={docUrl(this.props.link)}><div style={{  display: 'inline-block', justifyContent:'center', alignItems: 'center' ,width: 150, border: '2px solid #546fff', color: '#ffffff',backgroundColor: '#546fff',padding: '8px 10px',borderRadius: 8,'fontSize': 12,fontWeight: 'bold',marginFeft:20,marginTop:20}} > Build  </div></a>
     </div>
     )
   }
@@ -128,7 +129,7 @@ class Index extends React.Component {
         {[
           {
             content: 'Talk about trying this out',
-            image: `${baseUrl}img/od.png`,
+            image: `/img/od.png`,
             imageAlign: 'left',
             title: 'Try it Out',
           },
@@ -218,9 +219,9 @@ class Index extends React.Component {
           <small>Tutorials. Learn how to build your deep learning models with Nanonets.</small>
         </h2>
         <div style={{display:'flex', alignItems: 'center', justifyContent:'center', marginBottom: 5, flexWrap:'wrap'}}>
-        <TutorialBox siteConfig={siteConfig} language={language} title="API" imgUrl="/img/od.png"/>
-        <TutorialBox siteConfig={siteConfig} language={language} title="Image Classification" imgUrl="/img/ic.png"/>
-        <TutorialBox siteConfig={siteConfig} language={language} title="Multilabel Classification" imgUrl="/img/mlc.png"/>
+        <TutorialBox siteConfig={siteConfig} language={language} title="API" imgUrl="img/od.png" link="ic.html"/>
+        <TutorialBox siteConfig={siteConfig} language={language} title="Image Classification" imgUrl="img/ic.png" link="od.html"/>
+        <TutorialBox siteConfig={siteConfig} language={language} title="Multilabel Classification" imgUrl="img/mlc.png" link="doc2.html"/>
         </div>
 
         <h2 style={{textAlign:'center', marginTop : 40}} className="projectTitle">
