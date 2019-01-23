@@ -1,0 +1,8 @@
+{
+  "docs": {
+    "Tutorials": ["doc1","doc2"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}

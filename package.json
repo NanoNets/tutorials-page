@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "examples": "docusaurus-examples",
+    "start": "docusaurus-start",
+    "build": "docusaurus-build",
+    "publish-gh-pages": "docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version"
+  },
+  "devDependencies": {
+    "docusaurus": "^1.6.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.0",
+    "material-ui": "^0.20.2"
+  }
+}
