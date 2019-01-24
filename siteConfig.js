@@ -49,9 +49,9 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/nanonets.png',
-  footerIcon: 'img/nanonets.png',
-  favicon: 'img/nanonets.png',
+  headerIcon: 'img/nanonets_white.png',
+  footerIcon: 'img/nanonets_white.png',
+  favicon: 'img/nanonets_white.png',
 
   /* Colors for website */
   colors: {
