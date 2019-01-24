@@ -239,4 +239,23 @@ class Index extends React.Component {
   }
 }
 
-module.exports = Index;
+class Foo extends React.Component {
+
+  
+  render() {
+    const {config : siteConfig, language = ''} = this.props;
+    const {baseUrl, docsUrl} = siteConfig;
+    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
+    const langPart = `${language ? `${language}/` : ''}`;
+    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+    let url = docUrl("ic")
+    return (
+    <div>
+  <meta httpEquiv="refresh" content={"0; url=" + url} />
+
+</div>)
+
+  }
+}
+
+module.exports = Foo;
