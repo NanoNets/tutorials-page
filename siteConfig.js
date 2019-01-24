@@ -40,9 +40,9 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'ic', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {label: 'API', href: "https://app.nanonets.com/documentation"},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {blog: true, label: 'Blog', href: "https://blog.nanonets.com"},
   ],
 
   // If you have users set above, you add it here:
@@ -51,12 +51,12 @@ const siteConfig = {
   /* path to images for header/footer */
   headerIcon: 'img/nanonets.png',
   footerIcon: 'img/nanonets.png',
-  favicon: 'img/favicon.png',
+  favicon: 'img/nanonets.png',
 
   /* Colors for website */
   colors: {
     primaryColor: '#546fff',
-    secondaryColor: '#205C3B',
+    secondaryColor: '#546fff',
   },
 
   /* Custom fonts for website */
@@ -74,7 +74,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Nanonets`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

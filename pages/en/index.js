@@ -90,7 +90,7 @@ class TutorialBox extends React.Component {
     <div style={{ textAlign:'center', width:400, display: 'inline-block' }}>
     <img style={{width: 80}} src={imgUrl}/>
     <h2 style={{}}>{this.props.title}</h2>
-    <p>Download our model as a docker binary and run it on your own infrastructure. Our docker models come in two flavors, GPU and CPU and can run on almost any platform including embedded devices. foobar</p>
+    <p style={{paddingRight:50, paddingLeft: 50}}>Follow this 5 minute tutorial to create your first model</p>
     <a href={docUrl(this.props.link)}><div style={{  display: 'inline-block', justifyContent:'center', alignItems: 'center' ,width: 150, border: '2px solid #546fff', color: '#ffffff',backgroundColor: '#546fff',padding: '8px 10px',borderRadius: 8,'fontSize': 12,fontWeight: 'bold',marginFeft:20,marginTop:20}} > Build  </div></a>
     </div>
     )
@@ -219,12 +219,12 @@ class Index extends React.Component {
           <small>Tutorials. Learn how to build your deep learning models with Nanonets.</small>
         </h2>
         <div style={{display:'flex', alignItems: 'center', justifyContent:'center', marginBottom: 5, flexWrap:'wrap'}}>
-        <TutorialBox siteConfig={siteConfig} language={language} title="API" imgUrl="img/od.png" link="ic.html"/>
-        <TutorialBox siteConfig={siteConfig} language={language} title="Image Classification" imgUrl="img/ic.png" link="od.html"/>
-        <TutorialBox siteConfig={siteConfig} language={language} title="Multilabel Classification" imgUrl="img/mlc.png" link="doc2.html"/>
+        <TutorialBox siteConfig={siteConfig} language={language} title="Image Classification" imgUrl="img/od.png" link="ic.html"/>
+        <TutorialBox siteConfig={siteConfig} language={language} title="Object Detection" imgUrl="img/ic.png" link="od.html"/>
+        <TutorialBox siteConfig={siteConfig} language={language} title="Multilabel Classification" imgUrl="img/mlc.png" link="mlc.html"/>
         </div>
 
-        <h2 style={{textAlign:'center', marginTop : 40}} className="projectTitle">
+        <h2 style={{textAlign:'center', marginTop : 100}} className="projectTitle">
           <small>Easily integrate into your application</small>
         </h2>
         <Features />

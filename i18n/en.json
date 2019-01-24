@@ -13,7 +13,7 @@
         "title": "Object detection",
         "sidebar_label": "Object Detection"
       },
-      "doc3": {
+      "mlc": {
         "title": "Multilabel classification",
         "sidebar_label": "Multilabel classification"
       },
