@@ -51,7 +51,7 @@ const siteConfig = {
   /* path to images for header/footer */
   headerIcon: 'img/nanonets_white.png',
   footerIcon: 'img/nanonets_white.png',
-  favicon: 'img/nanonets_white.png',
+  favicon: 'img/nanonets.png',
 
   /* Colors for website */
   colors: {
@@ -92,6 +92,8 @@ const siteConfig = {
   // Open Graph and Twitter card images.
   ogImage: 'https://nanonets.com/assets/images/logo2.png',
   twitterImage: 'img/docusaurus.png',
+  gaTrackingId: 'UA-88035784-7',
+  gaGtag: true,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,

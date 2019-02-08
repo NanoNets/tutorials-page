@@ -1,6 +1,7 @@
 {
   "docs": {
-    "Tutorials": ["ic","od"]
+    "Tutorials": ["ic","od"],
+    "FAQs" : ["annotate", "data-collection"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

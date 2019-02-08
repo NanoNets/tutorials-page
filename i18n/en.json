@@ -5,31 +5,25 @@
     "previous": "Previous",
     "tagline": "Build custom deep learning models in minutes",
     "docs": {
+      "data-collection": {
+        "title": "Data Collection Best Practices",
+        "sidebar_label": "Data Collection Best Practices"
+      },
+      "annotate": {
+        "title": "Annotation Best Practices for Object Detection",
+        "sidebar_label": "Annotation Best Practices for Object Detection"
+      },
       "ic": {
         "title": "Image Classification",
         "sidebar_label": "Image Classification"
-      },
-      "od": {
-        "title": "Object detection",
-        "sidebar_label": "Object Detection"
       },
       "mlc": {
         "title": "Multilabel classification",
         "sidebar_label": "Multilabel classification"
       },
-      "doc4": {
-        "title": "Other Document",
-        "sidebar_label": "doc4"
-      },
-      "doc5": {
-        "title": "Fifth Document",
-        "sidebar_label": "doc5"
-      },
-      "image_classification": {
-        "title": "image_classification"
-      },
-      "object_detection": {
-        "title": "object_detection"
+      "od": {
+        "title": "Object detection",
+        "sidebar_label": "Object Detection"
       }
     },
     "links": {
@@ -40,6 +34,7 @@
     },
     "categories": {
       "Tutorials": "Tutorials",
+      "FAQs": "FAQs",
       "First Category": "First Category"
     }
   },
