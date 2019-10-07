@@ -24,6 +24,10 @@
       "od": {
         "title": "Object detection",
         "sidebar_label": "Object Detection"
+      },
+      "create-ocr-model": {
+        "title": "Adding categories to OCR models",
+        "sidebar_label": "Adding categories to OCR models"
       }
     },
     "links": {
