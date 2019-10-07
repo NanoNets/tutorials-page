@@ -13,4 +13,5 @@
 <url> <loc>https://nanonets.github.io/tutorials-page/docs/ic</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://nanonets.github.io/tutorials-page/docs/ic" /> </url>
 <url> <loc>https://nanonets.github.io/tutorials-page/docs/mlc</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://nanonets.github.io/tutorials-page/docs/mlc" /> </url>
 <url> <loc>https://nanonets.github.io/tutorials-page/docs/od</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://nanonets.github.io/tutorials-page/docs/od" /> </url>
+<url> <loc>https://nanonets.github.io/tutorials-page/docs/create-ocr-model</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://nanonets.github.io/tutorials-page/docs/create-ocr-model" /> </url>
 </urlset>
